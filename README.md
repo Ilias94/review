@@ -38,15 +38,20 @@
 
 1. **Clone the repository**:
 
-```bash
-git clone <repo-url>
-cd book-review-api
-```
+> **Note:** The main implementation is on the `master` branch. Please check out `master` after cloning:
+>
+> ```bash
+> git clone https://github.com/Ilias94/review.git
+> cd review
+> git checkout master
+> ```
+
 
 2. **Start the application**:
 
 ```bash
-mvn spring-boot:run
+> ./mvnw spring-boot:run   # Linux/Mac
+> mvnw.cmd spring-boot:run # Windows
 ```
 
 The API will be available at `http://localhost:8080`.
