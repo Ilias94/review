@@ -1,0 +1,14 @@
+{
+  "count": 1,
+  "results": [
+    {
+      "id": 100,
+      "title": "Harry Potter",
+      "authors": [
+        { "name": "J.K. Rowling", "birth_year": 1965, "death_year": null }
+      ],
+      "languages": ["en"],
+      "download_count": 123
+    }
+  ]
+}
